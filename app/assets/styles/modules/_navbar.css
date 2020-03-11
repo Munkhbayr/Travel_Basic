@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+
+  &__logo {
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 15px;
+    font-size: 0.8rem;
+  }
+  &__list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    li {
+      margin: 1rem;
+
+      a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #000;
+      }
+    }
+  }
+}
